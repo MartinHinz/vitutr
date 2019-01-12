@@ -1,0 +1,15 @@
+<li>
+  {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+  <span class="post-meta">{{ include.post.date | date: date_format }}</span>
+  <h3>
+    <a class="post-link" href="{{ include.post.url | relative_url }}">
+    {%- if include.post.video_src == 'youtube' -%}
+      <img src="https://img.youtube.com/vi/{{ include.post.video_id | escape }}/hqdefault.jpg"><br/>
+    {%- endif -%}
+    {{ include.post.title | escape }}
+    </a>
+  </h3>
+  {%- if site.show_excerpts -%}
+    {{ include.post.excerpt }}
+  {%- endif -%}
+</li>
