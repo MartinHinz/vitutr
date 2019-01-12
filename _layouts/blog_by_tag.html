@@ -1,15 +1,16 @@
 ---
 layout: default
 ---
-
-<h1>Articles by tag {{page.tag}}:</h1>
+<h2>Videos tagged {{page.tag}}:</h2>
 <div>
    {% if site.tags[page.tag] %}
-      <ul class="post-list">
+   <div class="container">
+     <div class="row">
         {% for post in site.tags[page.tag] %}
             {% include post_preview.html post=post %}
         {% endfor %}
-      </ul>
+      </div>
+    </div>
     {% else %}
         <p>There are no posts for this tag.</p>
     {% endif %}

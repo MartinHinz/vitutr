@@ -5,6 +5,9 @@ categories: screencast
 series: statistik_mit_r
 episode_nr: 7
 video: <iframe width="560" height="315" mce_src="http://www.youtube.com/embed/w4p4y_K_qBo" frameborder="0" allowfullscreen="" src="http://www.youtube.com/embed/w4p4y_K_qBo"></iframe>
+video_id: w4p4y_K_qBo
+video_src: youtube
+tags: [descriptive_statistics, basic, german]
 ---
 
 In dieser Episode geht es um die einfachste Form der Darstellung komplexer Daten: Die Tabelle.

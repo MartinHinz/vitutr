@@ -1,15 +1,13 @@
-<li>
+<div class="col-md-3">
+  <div class="card" style="width: 210px; border: none;">
   {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-  <span class="post-meta">{{ include.post.date | date: date_format }}</span>
-  <h3>
     <a class="post-link" href="{{ include.post.url | relative_url }}">
     {%- if include.post.video_src == 'youtube' -%}
-      <img src="https://img.youtube.com/vi/{{ include.post.video_id | escape }}/hqdefault.jpg"><br/>
+          <img class="card-img-top" src="https://img.youtube.com/vi/{{ include.post.video_id | escape }}/hqdefault.jpg" width="210"><br/>
     {%- endif -%}
-    {{ include.post.title | escape }}
+    <div class="card-body">
+    <p class="card-title video-title">{{ include.post.title | escape }}<br> <span class="post-meta">{{ include.post.date | date: date_format }}</span></p>
     </a>
-  </h3>
-  {%- if site.show_excerpts -%}
-    {{ include.post.excerpt }}
-  {%- endif -%}
-</li>
+</div>
+</div>
+</div>

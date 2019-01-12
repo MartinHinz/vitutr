@@ -2,6 +2,7 @@ module Jekyll
   class TagsGenerator < Generator
 
     def generate(site)
+      puts "Hallo"
         tags_dir = Dir.pwd + '/tags'
 
         if !Dir.exists?(tags_dir)
@@ -24,8 +25,6 @@ module Jekyll
         if regenerate_flag
             FileUtils.touch Dir.pwd+'/_config.yml'
         end
-
-
 
     end
   end

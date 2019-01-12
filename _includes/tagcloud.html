@@ -1,0 +1,15 @@
+<div class="tagcloud">
+  <ul>
+    <li>
+      <a href="{{site.baseurl}}/">All</a>
+    </li>
+    {% for tag in site.tags %}
+      <li>
+          <a href="{{site.baseurl}}/tags/{{ tag | first |downcase | slugize }}/">
+              {{ tag | first }}<span>{{ tag | last | size}}</span>
+          </a>
+
+      </li>
+    {% endfor %}
+  </ul>
+</div>
