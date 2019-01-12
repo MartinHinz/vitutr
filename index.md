@@ -4,11 +4,11 @@
 
 layout: home
 ---
+
 <div class="tagcloud">
 {% for tag in site.tags %}
-
     <li style="font-size: {{ tag | last | size | times: 100 | divided_by: site.tags.size| plus: 70 }}%">
-        <a href="{{base_url}}/tags/{{ tag | first |downcase | slugize }}/">
+        <a href="{{site.baseurl}}/tags/{{ tag | first |downcase | slugize }}/">
             {{ tag | first }}
         </a>
 

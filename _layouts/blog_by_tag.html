@@ -5,9 +5,11 @@ layout: default
 <h1>Articles by tag {{page.tag}}:</h1>
 <div>
    {% if site.tags[page.tag] %}
+      <ul class="post-list">
         {% for post in site.tags[page.tag] %}
-            <a href={{ post.url }}/>{{ post.title }}</a>
+            {% include post_preview.html post=post %}
         {% endfor %}
+      </ul>
     {% else %}
         <p>There are no posts for this tag.</p>
     {% endif %}
