@@ -5,6 +5,9 @@
     {%- if include.post.video_src == 'youtube' -%}
           <img class="card-img-top" src="https://img.youtube.com/vi/{{ include.post.video_id | escape }}/hqdefault.jpg" width="210"><br/>
     {%- endif -%}
+    {%- if include.post.video_src == 'switch' -%}
+          <img class="card-img-top" src="assets/images/{{ include.post.video_id | escape }}.png" width="210"><br/>
+    {%- endif -%}
     <div class="card-body">
     <p class="card-title video-title">{{ include.post.title | escape }}<br> <span class="post-meta">{{ include.post.date | date: date_format }}</span></p>
     </a>
