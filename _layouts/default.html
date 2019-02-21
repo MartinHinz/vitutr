@@ -13,7 +13,7 @@
         <ul class="series_list">
           <li><a href="{{ site.url }}/index.html">All</a></li>
           {% for category in site.categories %}
-            <li><a href="{{ site.url }}/category/{{ category | first | cgi_escape | url_encode }}/index.html">{{ category | first }}</a></li>
+            <li><a href="{{ site.url }}/categories/{{ category | first | cgi_escape }}/index.html">{{ category | first }}</a></li>
           {% endfor %}
         </ul>
         <h4>Tags</h4>

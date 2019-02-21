@@ -1,0 +1,21 @@
+---
+layout: default
+---
+
+<h2>Videos in series &apos;{{ page.category }}&apos;</h2>
+
+  <section>
+    <div class="container">
+      <div class="row">
+    {% if site.categories[page.category] %}
+      {% assign sorted_posts = site.categories[page.category] | sort: 'episode_nr' %}
+        {% for post in sorted_posts %}
+            {% assign post_title = post.episode_nr | append: ' - ' | append: post.title %}
+            {% include post_category_preview.html post=post post_title = post_title%}
+        {% endfor %}
+    {% else %}
+        <p>There are no posts for this category.</p>
+    {% endif %}
+</div>
+</div>
+</section>
