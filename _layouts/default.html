@@ -9,6 +9,14 @@
 
     <main class="page-content" aria-label="Content">
       <div class="wrapper">
+        <h4>Series</h4>
+        <ul class="series_list">
+          <li><a href="{{ site.url }}/index.html">All</a></li>
+          {% for category in site.categories %}
+            <li><a href="{{ site.url }}/category/{{ category | first | cgi_escape | url_encode }}/index.html">{{ category | first }}</a></li>
+          {% endfor %}
+        </ul>
+        <h4>Tags</h4>
         {% include tagcloud.html %}
         {{ content }}
       </div>

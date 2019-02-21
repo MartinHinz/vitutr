@@ -1,0 +1,18 @@
+---
+layout: default
+---
+{% assign sorted_posts = page.posts | sort: 'episode_nr' %}
+
+  <h2>Videos in series &apos;{{ page.title }}&apos;</h2>
+
+  <section>
+    <div class="container">
+      <div class="row">
+        <!-- Show excerpts for all posts in this category -->
+        {% for post in sorted_posts %}
+          {% assign post_title = post.episode_nr | append: ' - ' | append: post.title %}
+          {% include post_category_preview.html post=post post_title = post_title%}
+        {% endfor %}
+      </div>
+    </div>
+  </section>

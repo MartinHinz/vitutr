@@ -1,8 +1,7 @@
 ---
 layout: post
 title: Import Repositories from GitHub
-categories: screencast
-series: Statistical methods for archaeological data analysis I
+categories: ['Statistical methods for archaeological data analysis I 2019']
 episode_nr: 4
 video: <iframe width="640" height="360" src="https://tube.switch.ch/embed/ea50eedd" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 video_id: ea50eedd

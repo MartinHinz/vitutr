@@ -1,8 +1,7 @@
 ---
 layout: post
 title: Fishers exakter Test
-categories: screencast
-series: statistik_mit_r
+categories: ['Grundlegende statistische Verfahren für archäologische Datenanalyse in R 2012']
 episode_nr: 22
 video: <iframe width="560" height="315" mce_src="http://www.youtube.com/embed/ZRAU3t_mIGc" frameborder="0" allowfullscreen="" src="http://www.youtube.com/embed/ZRAU3t_mIGc"></iframe>
 video_id: ZRAU3t_mIGc

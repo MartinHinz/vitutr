@@ -1,8 +1,7 @@
 ---
 layout: post
 title: Overfitting 1
-categories: screencast
-series: predictive_modelling
+categories: ['Predictive Modelling 2013']
 episode_nr: 2
 video: <iframe width="560" height="315" src="//www.youtube.com/embed/iFihQcnabec" mce_src="http://www.youtube.com/embed/iFihQcnabec" frameborder="0" allowfullscreen=""></iframe>
 video_id: iFihQcnabec

@@ -1,9 +1,9 @@
 ---
 layout: post
 title: Installing R
-categories: screencast
+categories: ['Statistical methods for archaeological data analysis I 2019']
 series: Statistical methods for archaeological data analysis I
-episode_nr: 4
+episode_nr: 1
 video: <iframe width="640" height="360" src="https://tube.switch.ch/embed/afdd81a3" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 video_id: afdd81a3
 video_src: switch
