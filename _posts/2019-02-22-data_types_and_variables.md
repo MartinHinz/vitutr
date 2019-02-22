@@ -10,6 +10,6 @@ video_src: switch
 tags: [usage, basic, english]
 ---
 
-How to get R on your computer. Demonstrated on a Windows System, Mac should work comparably. For Linux use the package manager of your distribution
+This video explains how you store numbers, texts and logical variables in R using scalar and vector variables and also what are matrices and data frames and how we can utilize them in R.
 <!--more-->
 {{page.video}}
