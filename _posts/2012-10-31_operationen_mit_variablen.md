@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Operationen mit Variablen
-categories: ['Grundlegende%20statistische%20Verfahren%20f%C3%BCr%20arch%C3%A4ologische%20Datenanalyse%20in%20R%202012']
+categories: ['Grundlegende statistische Verfahren für archäologische Datenanalyse in R 2012']
 episode_nr: 4
 video: <iframe width="640" height="360" src="https://tube.switch.ch/embed/67fca478" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 video_id: 67fca478
