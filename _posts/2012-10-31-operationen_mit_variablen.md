@@ -9,5 +9,6 @@ video_src: switch
 tags: [usage, basic, german]
 ---
 
-Wie man 1D- und 2D-Daten erstellt, darauf zugreift und manipuliert: Vektoren, Matrizen und Datenrahmen (data frames).<!--more-->
+Wie man 1D- und 2D-Daten erstellt, darauf zugreift und manipuliert: Vektoren, Matrizen und Datenrahmen (data frames).
+<!--more-->
 {{page.video}}
