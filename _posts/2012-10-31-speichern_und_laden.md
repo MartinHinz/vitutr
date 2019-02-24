@@ -3,9 +3,9 @@ layout: post
 title: Speichern und Laden von Daten
 categories: ['Grundlegende statistische Verfahren für archäologische Datenanalyse in R 2012']
 episode_nr: 5
-video: <iframe width="560" height="315" mce_src="http://www.youtube.com/embed/QBm-F9bhcnU" frameborder="0" allowfullscreen="" src="http://www.youtube.com/embed/QBm-F9bhcnU"></iframe>
-video_id: QBm-F9bhcnU
-video_src: youtube
+video: <iframe width="640" height="360" src="https://tube.switch.ch/embed/d6d12c52" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+video_id: d6d12c52
+video_src: switch
 tags: [usage, basic, german]
 ---
 
