@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Pie charts
+title: Bar charts
 categories: ['Statistical methods for archaeological data analysis I 2019']
-episode_nr: 11
+episode_nr: 13
 video: <iframe width="640" height="360" src="https://tube.switch.ch/embed/056861ba" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 video_id: 056861ba
 video_src: switch
