@@ -33,6 +33,6 @@
     content="{{ site.urlimg }}/{{ page.image.thumb }}">
 {% else %}
   <meta name="twitter:image"
-    content="{{ /assets/images/logo.png | prepend: site.url }}">
+    content="{{ '/assets/images/logo.png' | absolute_url }}">
 {% endif %}
 </head>
