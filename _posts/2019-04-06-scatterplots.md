@@ -6,7 +6,8 @@ episode_nr: 15
 video: <iframe width="640" height="360" src="https://tube.switch.ch/embed/91e754de" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 video_id: 91e754de
 video_src: switch
-image.thumb: /assets/images/91e754de.png
+image:
+  thumb: /assets/images/91e754de.png
 tags: [descriptive_statistics, plotting, basic, english]
 ---
 
