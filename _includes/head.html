@@ -30,7 +30,7 @@
 
 {% if page.image.thumb %}
   <meta name="twitter:image"
-    content="{{ site.urlimg }}/{{ page.image.thumb }}">
+    content="{{ page.image.thumb | absolute_url }}">
 {% else %}
   <meta name="twitter:image"
     content="{{ '/assets/images/logo.png' | absolute_url }}">
