@@ -12,6 +12,9 @@
   {% if site.tags != "" %}
     {% include collecttags.html %}
   {% endif %}
+
+  <link rel="shortcut icon" type="image/png" href="/assets/images/logo.png">
+
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:site" content="@martinusrihhi">
   <meta name="twitter:title" content="{{ page.title }}">
@@ -30,6 +33,6 @@
     content="{{ site.urlimg }}/{{ page.image.thumb }}">
 {% else %}
   <meta name="twitter:image"
-    content="{{ site.urlimg }}/path/to/cover.png">
+    content="{{ site.urlimg }}/assets/images/logo.png">
 {% endif %}
 </head>
