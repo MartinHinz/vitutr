@@ -32,7 +32,8 @@
   <meta name="twitter:image"
     content="{{ site.urlimg }}/{{ page.image.thumb }}">
 {% else %}
+  {% capture logo_link %}{% link /assets/images/logo.png %}{% endcapture %}
   <meta name="twitter:image"
-    content="{{ "/assets/images/logo.png" | relative_url }}">
+    content="{{ logo_link | absolute_url }}">
 {% endif %}
 </head>
