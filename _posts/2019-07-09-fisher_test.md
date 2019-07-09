@@ -2,7 +2,7 @@
 layout: post
 title: Fishers Exact Test
 categories: ['Statistical methods for archaeological data analysis I 2019']
-episode_nr: 23
+episode_nr: 24
 video: <iframe width="640" height="360" src="https://tube.switch.ch/embed/8751f1ee" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 video_id: 8751f1ee
 video_src: switch
