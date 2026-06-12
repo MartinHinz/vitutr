@@ -3,7 +3,7 @@ layout: post
 title: Mann-Whitney-U-Test
 categories: ['Statistical methods for archaeological data analysis I 2019']
 episode_nr: 21
-video: <iframe width="640" height="360" src="https://tube.switch.ch/embed/eb6ec1c1" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+video: <iframe width="640" height="360" src="https://tobira.unibe.ch/~embed/!v/:eb6ec1c1" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 video_id: eb6ec1c1
 video_src: switch
 image:

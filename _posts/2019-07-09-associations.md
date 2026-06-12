@@ -3,7 +3,7 @@ layout: post
 title: Measurement of Association
 categories: ['Statistical methods for archaeological data analysis I 2019']
 episode_nr: 23
-video: <iframe width="640" height="360" src="https://tube.switch.ch/embed/8bacf194" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+video: <iframe width="640" height="360" src="https://tobira.unibe.ch/~embed/!v/:8bacf194" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 video_id: 8bacf194
 video_src: switch
 image:

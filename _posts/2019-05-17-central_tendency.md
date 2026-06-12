@@ -3,7 +3,7 @@ layout: post
 title: Central Tendency
 categories: ['Statistical methods for archaeological data analysis I 2019']
 episode_nr: 17
-video: <iframe width="640" height="360" src="https://tube.switch.ch/embed/881ab6bf" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+video: <iframe width="640" height="360" src="https://tobira.unibe.ch/~embed/!v/:881ab6bf" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 video_id: 881ab6bf
 video_src: switch
 image:

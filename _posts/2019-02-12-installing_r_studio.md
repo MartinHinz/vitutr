@@ -3,7 +3,7 @@ layout: post
 title: Installing R Studio
 categories: ['Statistical methods for archaeological data analysis I 2019']
 episode_nr: 2
-video: <iframe width="640" height="360" src="https://tube.switch.ch/embed/5ab691fc" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+video: <iframe width="640" height="360" src="https://tobira.unibe.ch/~embed/!v/:5ab691fc" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 video_id: 5ab691fc
 video_src: switch
 tags: [usage, basic, english]
